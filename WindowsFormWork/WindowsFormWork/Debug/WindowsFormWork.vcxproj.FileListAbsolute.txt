@@ -1,0 +1,3 @@
+C:\Users\Zver\Desktop\WindowsFormWork\WindowsFormWork\Debug\WindowsFormWork.vcxproj.AssemblyReference.cache
+C:\Users\Zver\Desktop\WindowsFormWork\WindowsFormWork\Debug\WindowsFormWork.MyFormParent.resources
+C:\Users\Zver\Desktop\WindowsFormWork\WindowsFormWork\Debug\WindowsFormWork.vcxproj.GenerateResource.cache

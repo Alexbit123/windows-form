@@ -1,0 +1,56 @@
+  WindowsFormWork.MyFormParent.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly WindowsFormWork, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WindowsFormWork.MyFormParent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String color_figure : Public
+    System.Drawing.Point[] curvePoints : Public
+  Methods:
+    set_position(String, String, String, String): PrivateScope, Public, HideBySig
+    set_position_polygon_angle(String, String, String, String, String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    set_position_polygon_angle(String, String, String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    set_position_polygon_angle(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    set_position_polygon_angle(String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    set_position_polygon_angle(String, String, String, String, String, String): PrivateScope, Public, HideBySig
+Class WindowsFormWork.MyFormChild1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(WindowsFormWork.MyFormParent): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textX1 : Public
+    System.Windows.Forms.TextBox textY1 : Public
+    System.Windows.Forms.TextBox textX2 : Public
+    System.Windows.Forms.TextBox textY2 : Public
+Class WindowsFormWork.MyFormChild2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(WindowsFormWork.MyFormParent): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox comboBox1 : Public
+    System.Windows.Forms.TextBox textX1 : Public
+    System.Windows.Forms.TextBox textY1 : Public
+    System.Windows.Forms.TextBox textX2 : Public
+    System.Windows.Forms.TextBox textY2 : Public
+    System.Windows.Forms.TextBox textX3 : Public
+    System.Windows.Forms.TextBox textY3 : Public
+    System.Windows.Forms.TextBox textX4 : Public
+    System.Windows.Forms.TextBox textY4 : Public
+    System.Windows.Forms.TextBox textX5 : Public
+    System.Windows.Forms.TextBox textY5 : Public
+    System.Windows.Forms.TextBox textX6 : Public
+    System.Windows.Forms.TextBox textY6 : Public
+    System.Windows.Forms.TextBox textX7 : Public
+    System.Windows.Forms.TextBox textY7 : Public
